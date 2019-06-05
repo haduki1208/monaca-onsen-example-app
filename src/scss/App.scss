@@ -1,0 +1,25 @@
+@import '~@fullcalendar/core/main.css';
+@import '~@fullcalendar/daygrid/main.css';
+
+$font-color: #222222;
+$border-color: #666666;
+
+h2 {
+  color: $font-color;
+}
+
+div.tabbar {
+  border-top: 1px solid $border-color;
+  border-right: none;
+  border-bottom: none;
+  border-left: none;
+  box-sizing: border-box;
+}
+
+ons-tab {
+  .tabbar__button {
+    .ons-icon {
+      color: #6cbea3;
+    }
+  }
+}
